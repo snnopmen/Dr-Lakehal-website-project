@@ -1,0 +1,350 @@
+@charset "utf-8";
+
+body 
+{ 
+	
+	font-family: 'Roboto Slab', serif;
+	
+}
+.container {
+	background: #fff;
+	width: 100%;
+	margin-left: 50
+	
+}
+  
+
+header { 
+	background: #FFF;
+	height: 20%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	
+}
+header:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+header .logo {
+	background: #fff;
+	height: 70%;	
+}
+
+header .addimg{
+	margin-left: 35%;
+	margin-top: -8%;
+}
+
+header .workingtime{
+	margin: -8% 25% auto;
+	float: right;
+	display: block;
+	font-size: 18px;
+	font-weight: bold; 
+	
+}
+
+header .phonenumber{
+	margin: -8% 5% auto;
+	float: right;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	
+	
+}
+header .navbar1{ 
+	padding-top: -10%;
+}
+
+
+header .navv ul li {
+	height: 30%;
+	display: inline-block;
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 4%;
+	padding-top: 5px;
+	margin-right: auto;
+	
+	
+}
+header .navv ul li a {
+	color: #393838;
+	text-decoration: none;
+	
+}
+header .navv ul li a:hover {
+	color: #FF5053;
+}
+
+
+	
+
+
+.content{
+	background: #fff;
+	
+}
+	
+.content .freeconsultation {
+	background-image: url('../images/div1.png'); height: 100%;
+	background-repeat: no-repeat; 
+	background-size: 100%; 
+	padding-top: 8%;
+	padding-bottom: 10%;
+	background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+	margin-top: 0.5%;
+	font-family: 'Roboto Slab', serif;
+	
+	
+}
+	
+.content .features{
+	
+	font-family:  'Roboto Slab', serif;
+	margin: 0 4% 0 8%;
+}
+.content .features .featuresblock{
+	display: flex;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	
+}
+#features1div {
+	margin: 0 20% 0 auto;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+#features1div:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#features2div {
+	margin: 0 25% 0 auto;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}
+#features2div:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#features3div {
+	margin: 0 30px 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	
+}
+#features3div:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.content .services{
+	padding-top: 5px;
+	font-family: 'Roboto Slab', serif;
+	background: url(../images/background2.png); 
+	background-repeat: no-repeat; 
+	background-size: 100%; 
+	padding-top: 1%;
+	padding-bottom: 2%;
+	background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+}
+.content .services .featuresblock{
+	display: flex;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	
+	
+
+}
+.content .services .serviceblock{
+	display: flex;
+	padding-top: 4%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#services1div{
+    margin: 0 20px 0 20px;
+
+}
+#services2div{
+	margin: 0 20px 0 auto;
+
+}
+#services3div{
+	margin: 0 20px 0 auto;
+
+}
+#services4div{
+	margin: 0 20px 0 20px;
+}
+#services5div{
+	margin: 0 20px 0 auto;
+}
+#servicesbutton1{ 
+	margin: 0 20px 0 10%;
+}
+.content .features2{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	margin: 3% 5% 2% 5%;
+	padding-bottom: 2%;
+	
+}
+.content .features2:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.content .features2 .features2block { 
+	background: url(../images/background3.png);
+	background-repeat: no-repeat; 
+	background-size: 100%; 
+	padding-top: 8%;
+	padding-bottom: 10%;
+	background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+	margin-top: 1%;
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 2%;
+	
+}
+
+.takeappointment { 
+	padding-top: 5px;
+	font-family: 'Roboto Slab', serif;
+	background: url(../images/background2.png); 
+	background-repeat: no-repeat; 
+	background-size: 100%; 
+	padding-top: 1%;
+	padding-bottom: 2%;
+	background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+	background-attachment: fixed;
+    background-position:center;
+}
+
+
+
+.content .features2 .navbar2 ul {
+	list-style-type: none;
+	background-color: #333;
+	overflow: hidden;
+	padding: 1% 0 1% 0;
+	margin: 0;
+    display: inline-flex;
+	font-size: 18px
+		
+}
+.content .feature2 .navbar2 li {
+	
+	float:left;
+}
+
+
+.content .features2 .navbar2 li a {
+	
+	color: beige;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-right: 2px solid #fff;
+}
+.content .features2 .navbar2 li a:hover{
+	background-color: #111;
+}	
+.content .features2 .navbar2 li a:active{
+	background-color: aqua;
+}
+.content .features2 .features2block .features2p1 {
+	
+} 
+
+.content .takeappointment{
+
+
+}
+
+.content .freeconsultation{
+	
+}
+.content .ourcontact{
+	
+}
+
+.content .ourlocation{
+	
+}
+
+
+footer{
+	background: #fff;
+	height: 100px;
+	
+}
+
+
+
+.btn3d {
+    transition:all .08s linear;
+    position:relative;
+    outline:medium none;
+    -moz-outline-style:none;
+    border:0px;
+    margin-right:10px;
+    margin-top:15px;
+}
+.btn3d:focus {
+    outline:medium none;
+    -moz-outline-style:none;
+}
+.btn3d:active {
+    top:9px;
+}
+.btn-default {
+    box-shadow:0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #adadad, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#fff;
+}
+.btn-primary {
+    box-shadow:0 0 0 1px #428bca inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #357ebd, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#428bca;
+}
+ .btn-success {
+    box-shadow:0 0 0 1px #5cb85c inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #4cae4c, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#5cb85c;
+}
+ .btn-info {
+    box-shadow:0 0 0 1px #5bc0de inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #46b8da, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#5bc0de;
+}
+.btn-warning {
+    box-shadow:0 0 0 1px #f0ad4e inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #eea236, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#f0ad4e;
+}
+.btn-danger {
+    box-shadow:0 0 0 1px #c63702 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #C24032, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#c63702;
+}
+
+
+
+.two-column-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  }
+  
+  .profile-image-wrapper img {
+	width: 70%;
+	margin-left: 150px;
+  }
+  
+
+
+
